@@ -1,0 +1,137 @@
+   /* Navbar Styling */
+   .navbar {
+    background-color: black;
+    /* Dark Blue */
+    padding: 15px 20px;
+}
+
+.navbar-brand {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #fff;
+}
+.navbar-brand:hover {
+    color: yellow;
+}
+
+.nav-link {
+    color: white;
+    font-size: 1.1rem;
+    transition: 0.3s;
+}
+
+.nav-link:hover {
+    color: #ffcc00;
+    /* Yellow hover effect */
+}
+
+/* Toggler Button */
+.navbar-toggler {
+    border: none;
+    background: none;
+}
+
+.navbar-toggler-icon {
+    filter: invert(1);
+}
+
+/* Sticky Navbar */
+.sticky-top {
+    position: sticky;
+    top: 0;
+    z-index: 1020;
+}
+
+.hero {
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero img {
+    max-width: 300px;
+    border: 5px solid white;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+section {
+    scroll-margin-top: 80px;
+}
+
+#about{
+    background-color: rgb(57, 65, 73); 
+    /* height: 700px ; */
+}
+
+
+
+h2 {
+font-weight: 600;
+text-transform: uppercase;
+letter-spacing: 1px;
+
+}
+
+#contact{
+background-color: rgb(177, 171, 82);
+}
+
+.ftco-footer-social li {
+margin: 0 10px; /* Icons ke beech me gap */
+}
+
+.ftco-footer-social a {
+font-size: 24px; /* Icons size bada karo */
+color: #333; /* Default color black jaisa */
+transition: color 0.3s ease-in-out;
+}
+
+.ftco-footer-social a:hover {
+color: #ff4500; /* Hover pe color change */
+}
+
+
+.ftco-footer-social li a {
+width: 50px;
+height: 50px;
+line-height: 50px; /* Center align */
+border-radius: 50%; /* Circle shape */
+background-color: #333; /* Background color */
+color: white; /* Icon color */
+display: inline-block;
+text-align: center;
+font-size: 24px;
+margin: 0 10px; /* Gap between icons */
+transition: backgrund-color 0.3s ease-in-out;
+}
+
+.ftco-footer-social li a:hover {
+background-color: #ff4500; /* Change color on hover */
+}
+
+
+.ftco-footer-social li a span {
+color: white; /* Ensures icon remains white */
+transition: color 0.3s ease-in-out;
+}
+
+.contact-info a {
+color: rgb(15, 13, 13); /* Ya jo bhi color chahiye */
+text-decoration: none; /* Underline hatane ke liye */
+font-weight: bold; /* Optional: Thoda mota dikhane ke liye */
+}
+
+.contact-info a:hover {
+color: red; /* Hover pe jo color chahiye */
+}
+
+#about img {
+max-width: 100%; /* Prevents the image from exceeding the container's width */
+height: auto; /* Maintains the aspect ratio */
+max-height: 400px; /* You can adjust this based on your preference */
+}
